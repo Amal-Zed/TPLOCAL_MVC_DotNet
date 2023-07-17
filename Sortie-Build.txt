@@ -1,0 +1,6 @@
+﻿L'opération de génération a démarré...
+1>------ Début de la génération : Projet : TPLOCAL1, Configuration : Debug Any CPU ------
+1>Les analyseurs ont été ignorés pour accélérer la génération. Vous pouvez exécuter la commande « Build » ou « Rebuild » pour exécuter des analyseurs.
+1>TPLOCAL1 -> C:\Users\RBZ HP\Desktop\Formation Cobol\formation support\8-DOT-NET\3-MVC\TPLOCAL1-base-master\TPLOCAL1-base-master\bin\Debug\net6.0\TPLOCAL1.dll
+========== Build : 1 réussite(s), 0 échec(s), 0 à jour, 0 ignorée(s) ==========
+========= Build démarré à 6:42 PM et a pris 09,017 secondes ===========.

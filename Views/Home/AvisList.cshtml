@@ -1,0 +1,56 @@
+﻿<html>
+<head>
+    <title>HN - Validation</title>
+    <link rel="stylesheet" href="~/resources/Index.css" />
+</head>
+<body>
+    <header>
+        <img src="~/resources/GroupeHN.png" class="image" alt="GroupeHN" />
+        <h1>Liste des avis</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/Home/">Accueil</a></li>
+            <li><a href="/Home/Index/Form">Remplir le formulaire</a></li>
+            <li><a href="/Home/Index/OpinionsList">Avis List</a></li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <h1> Liste </h1>
+
+        <table id="OpinionsList">
+            <tr>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Avis</th>
+            </tr>
+            @foreach (var Opinion in Model)
+            {
+                <tr>
+                    <td>
+                        @Opinion.Nom
+                    </td>
+                    <td>
+                        @Opinion.Prenom
+                    </td>
+                    @if (@Opinion.Avis == "N")
+                    {
+                        <td style="background-color: red">Non</td>
+                    }
+                    else
+                    {
+                        <td style="background-color: green">Oui</td>
+                    }
+                </tr>
+
+             }
+        </table>
+
+        
+    </section>
+</body>
+</html>
+
